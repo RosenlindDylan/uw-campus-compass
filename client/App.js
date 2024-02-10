@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import { SomeComponent } from "./src/SomeComponent";
-import { MapContainer } from "./src/MapContainer"
+// import { MapContainer } from "./src/MapContainer"
 import { MapContent } from "./src/MapContent";
 import mapboxgl from "mapbox-gl";
 
