@@ -1,11 +1,11 @@
-/* import React from 'react';
+import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import Mapbox from '@rnmapbox/maps';
 
 // THIS IS THE REACT NATIVE MAPBOX NPM PACKAGE APPROACH
 // https://github.com/rnmapbox/maps 
 
-Mapbox.setAccessToken('');
+Mapbox.setAccessToken('pk.eyJ1IjoidXdjYW1wdXNjb21wYXNzIiwiYSI6ImNsczVlanlpaTBmOGUya3A2enNhemU3a2EifQ.0shmIuiEWiPRkc68amMBdQ');
 // remember to add the access token here ^^
 
 export const MapContent = () => {
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
   map: {
     flex: 1
   }
-}); */
+});
